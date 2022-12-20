@@ -15,6 +15,38 @@ copyright = "Copyright © 2019, Dirk Olbrich, all rights reserved."
     github_banner = true
 
     favicon = "favicon.ico"
+    
+[[params.mainMenu]]
+    link = "https://status.thisismy.cloud"
+    text = "status"
+
+[[params.mainMenu]]
+    link = "https://dns.thisismy.cloud"
+    text = "dns"
+
+[[params.mainMenu]]
+    link = "https://gamepanel.thisismy.cloud"
+    text = "game panel"
+
+[[params.mainMenu]]
+    link = "https://mail.thisismy.cloud"
+    text = "mail"
+
+[[params.mainMenu]]
+    link = "https://vault.thisismy.cloud"
+    text = "vault"
+
+[[params.mainMenu]]
+    link = "https://board.thisismy.cloud"
+    text = "board"
+
+[[params.mainMenu]]
+    link = "/teamspeak3"
+    text = "teamspeak 3"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "what is this?"
 
 [build]
   writeStats = true

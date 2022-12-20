@@ -1,6 +1,17 @@
 {{ define "main" }}
-<article class="text-center text-gray-700">
+<!--article class="text-center text-gray-700">
     <h1 class="font-serif font-extralight text-5xl welcome-headline">{{ .Title }}</h1>
     {{ .Content }}
-</article>
+</article-->
+<nav role="navigation" class="m-auto flex flex-col items-center justify-center">
+    {{ if .Site.Params.mainMenu }}
+        {{ range .Site.Params.mainMenu }}
+            <div class="p-6 flex flex-col items-start">
+                <a href="{{ .link }}" class="font-medium text-lg lg:text-7xl underline text-gray-700">
+                    {{ .text }}
+                </a>
+            </div>
+        {{ end }}
+    {{ end }}
+</nav>
 {{ end }}
